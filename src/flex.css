@@ -1,0 +1,45 @@
+.grid_product {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.checkbox_input {
+    display: flex;
+    flex: 1;
+}
+
+.label_product {
+    display: flex;
+    flex: 7;
+    word-break: break-word;
+}
+
+.button_product {
+    display: flex;
+    flex: 1;
+}
+
+@media screen and (max-width: 570px) {
+    .grid_product {
+        width: 70vw;
+    }
+
+    .label_product {
+        flex: 8;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .grid_product {
+        width: 80vw;
+        margin-left: 20px;
+    }
+
+    .label_product {
+        flex: 5;
+        margin: 0 10px;
+    }
+}

@@ -1,0 +1,36 @@
+.circle {
+    position: fixed;
+    z-index: -2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+#first_circle {
+    top: 10%;
+    left: 10%;
+    background: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2)) no-repeat;
+}
+
+#second_circle {
+    top: 60%;
+    left: 25%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2)) no-repeat;
+
+}
+
+#third_circle {
+    top: 30%;
+    left: 60%;
+    background: linear-gradient(to left bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)) no-repeat;
+
+}
+
+#fourth_circle {
+    top: 70%;
+    left: 80%;
+    background: linear-gradient(to left bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2)) no-repeat;
+
+}
+
